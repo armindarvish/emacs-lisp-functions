@@ -105,5 +105,5 @@ See `pdf-links-action-perform' for the interface."
     (pdf-annot-add-markup-annotation
      edges 'highlight '"yellow") nil))
 
-
-(spacemacs/set-leader-keys-for-major-mode 'pdf-view-mode "aa" 'pdf-keyboard-highlight)
+(provide 'my:pdf-helpers)
+;; (spacemacs/set-leader-keys-for-major-mode 'pdf-view-mode "aa" 'pdf-keyboard-highlight)
